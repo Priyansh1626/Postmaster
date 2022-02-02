@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.06rem;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(116, 200, 90, 0.8)), to(rgba(159, 172, 230, 0.5)));
+  background: linear-gradient(to top, rgba(116, 200, 90, 0.8), rgba(159, 172, 230, 0.5));
+  min-height: 140vh;
+}
+
+body .full-form {
+  -webkit-box-shadow: 0.4rem 0.4rem 3rem rgba(161, 161, 161, 0.822);
+          box-shadow: 0.4rem 0.4rem 3rem rgba(161, 161, 161, 0.822);
+}
+
+body .full-form .heading {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(116, 235, 213, 0.8)), to(rgba(159, 172, 230, 0.5)));
+  background: linear-gradient(to left, rgba(116, 235, 213, 0.8), rgba(159, 172, 230, 0.5));
+}
+
+body .full-form .main-form {
+  background: white;
+}
+
+body .full-form .main-form #submit {
+  outline: none;
+}
+
+body .full-form .main-form #submit:active {
+  outline: none;
+}
+
+body .full-form .main-form #submit:hover {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
